@@ -19,14 +19,14 @@ This project applies machine learning to build objective, reproducible models fo
 
 ## ⚙️ Project Structure
 
-wine-quality-prediction/
-├─ data/ # Raw datasets
-├─ src/ # Scripts and RMarkdown analysis
-│ ├─ wine_quality_analysis.R 
-│ ├─ wine_quality_analysis.Rmd
-│ └─ wine_quality_analysis.md
-├─ docs/ # Project summary
-├─ requirements.R # Package installer
+wine-quality-prediction/  
+├─ data/ # Raw datasets  
+├─ src/ # Scripts and RMarkdown analysis  
+│ ├─ wine_quality_analysis.R  
+│ ├─ wine_quality_analysis.Rmd  
+│ └─ wine_quality_analysis.md  
+├─ docs/ # Project summary  
+├─ requirements.R # Package installer  
 ├─ README.md  
 ├─ .gitignore  
 └─ LICENSE  
