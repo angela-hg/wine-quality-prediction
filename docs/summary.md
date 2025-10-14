@@ -20,7 +20,7 @@ Determine whether physicochemical properties of wine can predict its quality sco
 - **Elastic Net** explained 30.3% of variance (R² = 0.303)
 
 ### Insights
-- Alcohol, sulphates, and citric acid increase quality.
+- Alcohol and citric acid increase quality.
 - Volatile acidity and density decrease quality.
 - Random Forest captured non-linear patterns better than linear models.
 
