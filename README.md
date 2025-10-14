@@ -1,28 +1,35 @@
 # 🍷 Wine Quality Prediction using Machine Learning
 
-This project investigates whether the chemical composition of wine can predict its quality score.  
+This project explores whether physicochemical properties of wine can reliably predict wine quality ratings.  
 Using red and white Portuguese *Vinho Verde* datasets, we apply multiple regression and ensemble models to explore this relationship.
 
 ---
 
 ## 📊 Overview
 
-The dataset contains physicochemical measurements (acidity, sulphates, alcohol, etc.) for red and white wines.  
-We train and compare several predictive models, including **Elastic Net Regression** and **Random Forest**, using R.
+Traditional wine quality assessment relies on expert tasting, which is subjective and resource-intensive.  
+This project applies machine learning to build objective, reproducible models for predicting quality from chemical data.
 
-**Goal:** Predict wine quality objectively using lab-measured features.
+- **Dataset:** UCI Wine Quality (Red and White)
+- **Algorithms:** Elastic Net Regression, Random Forest, CART, Lasso, Ridge, NeuralNet
+- **Tools:** R, caret, ggplot2, corrplot, GGally, glmnet, randomForest, nnet, rpart
+- **Goal:** Predict wine quality objectively using lab-measured features.
 
 ---
 
 ## ⚙️ Project Structure
 
 wine-quality-prediction/
-│
-├── data/ # Raw datasets
-├── src/ # Scripts and RMarkdown analysis
-├── docs/ # Project summary
-├── requirements.R # Package installer
-└── README.md # This file
+├─ data/ # Raw datasets
+├─ src/ # Scripts and RMarkdown analysis
+│ ├─ wine_quality_analysis.R 
+│ ├─ wine_quality_analysis.Rmd
+│ └─ wine_quality_analysis.md
+├─ docs/ # Project summary
+├─ requirements.R # Package installer
+├─ README.md  
+├─ .gitignore  
+└─ LICENSE  
 
 
 ---
@@ -31,7 +38,7 @@ wine-quality-prediction/
 
 ### Clone the repo
 ```bash
-git clone https://github.com/YOUR-USERNAME/wine-quality-prediction.git
+git clone https://github.com/angela-hg/wine-quality-prediction.git
 setwd("wine-quality-prediction/src")
 ```
 
