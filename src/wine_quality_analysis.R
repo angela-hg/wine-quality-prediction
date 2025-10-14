@@ -1,7 +1,6 @@
 # ---------------------------------------------------------------
 # 🍷 Wine Quality Prediction
 # Author: Angela Herrera
-# Module: MATH42815 - Machine Learning Assignment 2
 # ---------------------------------------------------------------
 
 # Load required packages
